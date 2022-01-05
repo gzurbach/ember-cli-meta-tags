@@ -17,6 +17,7 @@ const VALID_HEAD_TAGS = A([
 
 export default Service.extend({
   headData: service(),
+  router: service(),
 
   // crawl up the active route stack and collect head tags
   collectHeadTags() {
