@@ -31,6 +31,5 @@ export function initialize() {
 
 export default {
   name: 'router-head-tags',
-  after: 'head-tags',
   initialize
 };
